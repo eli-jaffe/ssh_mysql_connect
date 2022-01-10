@@ -1,7 +1,7 @@
 # ssh_mysql_connect
 Code for connecting python to a MySQL server behind an SSH tunnel
 
-Sometimes, the database you want to connect to in Python is behind located behind an SSH tunnel.
+Sometimes, the database you want to connect to in Python is located behind an SSH tunnel.
 Using the files here, you can set establish the SSH connection and connect to the database all from within Python.
 
 I have this set up such that both the config file and the connector methods are separate from the Python script you are working in.
